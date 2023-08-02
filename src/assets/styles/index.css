@@ -1,0 +1,4 @@
+/* Tailwind default css imported here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

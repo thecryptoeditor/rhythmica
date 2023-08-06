@@ -55,9 +55,9 @@ function Login(props) {
                             <button 
                                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w100 rounded focus:outline-none focus:shadow-outline"
                                 type="button"
-                                onClick={props.submitLoginDetails}
+                                onClick={props.submitEvent}
                             >
-                                Login
+                                Start Survey
                             </button>
                         </div>
 

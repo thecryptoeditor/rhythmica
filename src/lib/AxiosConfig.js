@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const instance = axios.create();
+const Axios = axios.create();
 
 // Request interceptor
-instance.interceptors.request.use(
+Axios.interceptors.request.use(
   function (config) {
     // Do something before request is sent
     // console.log("Request Interceptor:", config);
@@ -17,7 +17,7 @@ instance.interceptors.request.use(
 );
 
 // Response interceptor
-instance.interceptors.response.use(
+Axios.interceptors.response.use(
   function (response) {
     // Do something with response data
     // console.log("Response Interceptor:", response);
@@ -30,4 +30,4 @@ instance.interceptors.response.use(
   }
 );
 
-export default instance;
+export default Axios;

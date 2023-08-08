@@ -37,7 +37,7 @@ function Login(props) {
                                 className="block text-gray-700 text-sm mb-2" 
                                 htmlFor="email"
                             >
-                                Email
+                                Email (Optional)
                             </label>
 
                             <input 
@@ -53,7 +53,7 @@ function Login(props) {
 
                         <div className="flex items-center justify-center mt-8">
                             <button 
-                                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w100 rounded focus:outline-none focus:shadow-outline"
+                                className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 w100 rounded focus:outline-none focus:shadow-outline"
                                 type="button"
                                 onClick={props.submitEvent}
                             >

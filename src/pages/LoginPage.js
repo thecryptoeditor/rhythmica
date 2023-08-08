@@ -16,9 +16,6 @@ export default function LoginPage () {
         setRendomNumber(RandomGenerator);
     }, [])
 
-
-    console.log(rendomNumber);
-
     return (
         <>
             <Login submitEvent={submitEvent} />

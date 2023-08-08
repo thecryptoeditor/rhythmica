@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ClipPreview from "../components/ClipPreview.js";
+import Feedback from "./FeedbackPage.js";
 // import audioToBase64Converter from '../utils/Base64ToVideoConverter.js'
 import Axios from '../lib/AxiosConfig.js';
 
@@ -7,35 +8,32 @@ export default function ClipPreviewPage() {
     
     const [base64, base64Response] = useState("");
     
-    const getData = async() => {
+    // const getData = async() => {
 
-        try {
+    //     try {
 
-            let res = await Axios.get('https://jsonplaceholder.typicode.com/todos/1')
+    //         let res = await Axios.get('https://jsonplaceholder.typicode.com/todos/1')
 
-            console.log('res', res);
+    //         console.log('res', res);
 
-            if(res.data.success) {
+    //         if(res.data.success) {
 
-            }
-            else {
+    //         }
+    //         else {
 
-            }
+    //         }
 
-        }
-        catch(err) {
-            console.error(err);
-        }
-    }
+    //     }
+    //     catch(err) {
+    //         console.error(err);
+    //     }
+    // }
 
-    
     
     useEffect(() => {
-        
-        console.log('test2');
-        
+
         // Get data API call
-        getData();
+        // getData();
         
         // fetching base64 sample file from public folder
         fetch("../../base64.txt")
@@ -46,11 +44,11 @@ export default function ClipPreviewPage() {
         
     }, []);
     
-    console.log('test1');
-
     return (
         <div>
             <ClipPreview videoData={base64} />
+
+            <Feedback />
         </div>
     );
 }

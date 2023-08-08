@@ -3,7 +3,7 @@ import React from 'react';
 export default function ClipPreview(props) {
 
     return (
-        <div>
+        <div className="audio-player">
             <audio src={props.videoData} type="audio/ogg" controls />
         </div>
     )

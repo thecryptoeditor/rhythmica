@@ -1,0 +1,36 @@
+.multi-select-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  .react-select-container {
+    margin-top: 10px;
+  }
+  
+  .react-select__control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 38px;
+  }
+  
+  .react-select__multi-value {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    padding: 2px 6px;
+    margin-right: 5px;
+  }
+  
+  .react-select__multi-value__remove {
+    color: #fff;
+  }
+  
+  .react-select__menu {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }

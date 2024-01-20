@@ -1,13 +1,16 @@
-### Rhythmica - A music App
+# Rhythmica - A music App
 
 ## Overview
 
 Rhythmica is a modern and responsive music application built using ReactJS. It provides users with a seamless and enjoyable experience for discovering, listening, and managing their favorite music tracks. With Rhythmica, users can explore a vast library of songs, create playlists, and enjoy a personalized music journey.
 
-## Technology
+## Tech Stack
 
-- React.js: The progressive JavaScript library.
+- ReactJS: Front-end library for building user interfaces.
+- React Router: Declarative routing for React applications.
+- Axios: Promise-based HTTP client for making API requests.
 - SCSS: SCSS used for custom variables for css.
+- Responsive Design: Ensures a consistent user experience across different devices.
 
 ## Key features
 
@@ -21,17 +24,17 @@ Rhythmica is a modern and responsive music application built using ReactJS. It p
 
 ## Installation
 
-# Project setup
+### Project setup
 ```
 npm install
 ```
 
-# Compiles and hot-reloads for development
+### Compiles and hot-reloads for development
 ```
 npm start
 ```
 
-**[⬆ back to top](#Rhythmica - A music App)**
+**[⬆ back to top](#Rhythmica)**
 
 
 ### All right reserved.

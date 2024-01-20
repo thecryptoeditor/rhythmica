@@ -1,13 +1,56 @@
 body {
-    background-color: black;
+    background-color: #0a0a0a;
     padding: 6px;
+    color: white;
+}
 
+p {
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo-section {
     width: 20%;
 }
 
-.searchbar-section { 
+.searchbar-section {
     width: 60%;
+}
+
+.personal-section {
+    width: 20%;
+}
+
+.my-channel-button {
+    background-color: transparent !important;
+    border: none !important;
+    color: #e36438 !important;
+    cursor: pointer !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    margin: 4px 2px !important;
+    transition-duration: 0.4s !important;
+    border-radius: 25px !important;
+    border: 2px solid #e36438 !important;
+    overflow: hidden !important;
+}
+
+.my-channel-button:hover {
+    background-color: #e36438 !important;
+    color: black !important;
+}
+
+.btn-icon {
+    color: white !important;
+}
+
+.profile-image {
+    .circle {
+        border: 2px solid #e36438!important;
+        border-radius: 25px!important;
+        padding: 4px;
+    }
 }

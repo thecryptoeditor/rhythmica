@@ -1,28 +1,29 @@
 import React from 'react'
-import IconButton from "@mui/material/IconButton";
-import { InputAdornment, FormControl, InputLabel, OutlinedInput } from "@mui/material";
+import { TextField } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 
 export default function searchBar() {
+
+    const handleSearch = () => { }
+
     return (
 
-        <div className='searchbar-section'>
-
-            <FormControl>
-                <InputLabel htmlFor="outlined-adornment-amount">Search</InputLabel>
-                <OutlinedInput
-                    id="outlined-adornment-amount"
-                    startAdornment = {
-                        <InputAdornment position="start">
-                            <IconButton>
-                                <SearchIcon />
-                            </IconButton>
-                        </InputAdornment>
-                    }
-                    label="Amount"
+        <div className='searchbar-section flex justify-start items-center'>
+            <div className='w-1/2'>
+                <TextField
+                    placeholder="Search..."
+                    variant="outlined"
+                    size="small"
+                    fullWidth
+                    onChange={handleSearch}
+                    InputProps={{
+                        style: { color: "#1e1e1e", backgroundColor: "#1e1e1e", borderRadius: "16px"},
+                        startAdornment: (
+                            <SearchIcon style={{ color: 'gray' }} />
+                        ),
+                    }}
                 />
-            </FormControl>
-
+            </div>
         </div>
     )
 }

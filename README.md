@@ -1,4 +1,4 @@
-### Rhythmicaa - A music App
+### Rhythmica - A music App
 
 ## Overview
 

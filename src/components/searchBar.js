@@ -17,7 +17,7 @@ export default function searchBar() {
                     fullWidth
                     onChange={handleSearch}
                     InputProps={{
-                        style: { color: "#1e1e1e", backgroundColor: "#1e1e1e", borderRadius: "16px"},
+                        style: { color: "#1e1e1e", backgroundColor: "#1e1e1e", borderRadius: "16px" },
                         startAdornment: (
                             <SearchIcon style={{ color: 'gray' }} />
                         ),
@@ -27,5 +27,3 @@ export default function searchBar() {
         </div>
     )
 }
-
-

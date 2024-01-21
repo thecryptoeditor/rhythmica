@@ -11,7 +11,7 @@ export default function myChannels() {
     return (
         <div className='channels'>
             <Button props={'my-channel-button'} onClick={handleClick}>
-                My Channels
+                My channel
                 <span className='ml-1.5'>
                     <ChevronRightIcon />
                 </span>

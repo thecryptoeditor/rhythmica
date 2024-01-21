@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home"
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 import "./assets/styles/index.scss";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
         <>
             <div className="App">
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Home title="About Page" /> } />
                 </Routes>
             </div>
         </>

@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-**[⬆ back to top](#Rhythmica)**
+**[⬆ back to top](###Rhythmica)**
 
 
 ### All right reserved.

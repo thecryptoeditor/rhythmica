@@ -6,6 +6,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import profileImg from '../../assets/images/proto.png'
+import profileImgz from '../../assets/images/protoz.png'
 
 const releases = [
     { id: 1, title: 'Calamity', artist: 'Annisokay', year: '2023' },
@@ -51,7 +52,7 @@ const FrequentListens = () => (
             <div key={song.id} className="flex items-center justify-between mb-4">
                 <div className="flex items-center">
                     <div>
-                        <img className='w-14 rounded-lg ' src={profileImg} alt="" />
+                        <img className='w-14 rounded-lg ' src={profileImgz} alt="" />
                     </div>
                     <div className="flex flex-col ml-8">
                         <span className="text-white">{song.title}</span>

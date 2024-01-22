@@ -25,10 +25,13 @@ p {
     color: #e36438
 }
 
-.my-channel-button {
+.border-button {
     background-color: transparent !important;
-    border: none !important;
     color: #e36438 !important;
+}
+
+.self-btn {
+    border: none !important;
     cursor: pointer !important;
     padding: 8px 16px !important;
     font-size: 14px !important;
@@ -42,10 +45,16 @@ p {
     overflow: hidden !important;
 }
 
-.my-channel-button:hover {
+.self-btn:hover {
     background-color: #e36438 !important;
     color: black !important;
 }
+
+.filled-button {
+    background-color: #e36438 !important;
+    color: white!important;
+}
+
 
 .btn-icon {
     color: white !important;
@@ -57,4 +66,15 @@ p {
         border-radius: 25px!important;
         padding: 4px;
     }
+}
+
+.promovideo-section {
+    background-image: url('../images/protoy.png');
+}
+
+.upgradesubscription-section {
+    background-image: url('../images/upgrade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }

@@ -6,23 +6,26 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const Player = () => {
     return (
-        <div className="bg-gray-800 rounded-lg p-4 text-white flex flex-col justify-between" style={{Width: '70%'}}>
+        <div className="promovideo-section rounded-lg h-96 p-12 text-white flex flex-col justify-between" style={{width: '70%'}}>
             <div className="flex justify-between items-center">
                 <div>
                     <div className="text-sm">Brand of Sacrifice • April 2023</div>
                     <div className="text-2xl font-bold">Between Death and Dreams</div>
                 </div>
-                <IconButton aria-label="like">
-                    <FavoriteBorderIcon />
-                </IconButton>
-                <IconButton aria-label="more">
-                    <MoreVertIcon />
-                </IconButton>
+
+                <div>
+                    <IconButton aria-label="like">
+                        <FavoriteBorderIcon sx={{'color': 'white'}} />
+                    </IconButton>
+                    <IconButton aria-label="more">
+                        <MoreVertIcon sx={{'color': 'white'}} />
+                    </IconButton>
+                </div>
             </div>
 
             <div className="flex justify-center items-center">
                 <IconButton aria-label="play" size="large">
-                    <PlayCircleOutlineIcon fontSize="inherit" />
+                    <PlayCircleOutlineIcon sx={{'color': 'white', fontSize: '64px'}} />
                 </IconButton>
             </div>
 

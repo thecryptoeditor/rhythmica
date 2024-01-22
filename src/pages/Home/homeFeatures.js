@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Advertisement from '../../components/homeAdvertisement.js';
 
-export default function homeFeatures() {
+const homeFeatures = () => {
     return (
-        <div className='homefeature-section'></div>
-    )
-}
+        <div className='homefeature-section'>
+
+            <Advertisement />
+
+        </div>
+    );
+};
+
+export default homeFeatures;

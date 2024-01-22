@@ -10,7 +10,6 @@ import profileImg from '../../assets/images/proto.png'
 const releases = [
     { id: 1, title: 'Calamity', artist: 'Annisokay', year: '2023' },
     { id: 2, title: 'Last Resort (Reimagined)', artist: 'Falling in Reverse', year: '2023' },
-    // ...other releases
 ];
 
 const songs = [
@@ -23,7 +22,6 @@ const artists = [
     { id: 1, name: 'Ice Nine Kills', subscribers: '432k' },
     { id: 2, name: 'Bloodywood', subscribers: '31k' },
     { id: 3, name: 'Bad Omens', subscribers: '183k' },
-    // ...other artists
 ];
 
 const NewReleases = () => (

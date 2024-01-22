@@ -5,13 +5,15 @@ import Profile from './Profile'
 
 export default function personal() {
     return (
-        <div className='personal-section flex justify-end items-center'>
+        <div className='personal-section flex justify-between items-center'>
 
             <Mychannels />
 
-            <Shareprofile />
+            <div className='flex direction-row items-center'>
+                <Shareprofile />
 
-            <Profile />
+                <Profile />
+            </div>
 
         </div>
     )

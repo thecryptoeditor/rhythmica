@@ -10,9 +10,9 @@ export default function myChannels() {
 
     return (
         <div className='channels'>
-            <Button props={'border-button self-btn'} onClick={handleClick}>
-                My channel
-                <span className='ml-1.5'>
+            <Button variant="outlined" props={'border-button self-btn'} onClick={handleClick}>
+                <p>My channels</p>
+                <span>
                     <ChevronRightIcon />
                 </span>
             </Button>

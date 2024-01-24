@@ -11,7 +11,7 @@ export default function searchBar() {
         <div className='searchbar-section flex justify-start items-center'>
             <div className='w-1/2'>
                 <TextField
-                    placeholder="Search..."
+                    placeholder="Search by artists, songs or albums"
                     variant="outlined"
                     size="small"
                     fullWidth

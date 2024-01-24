@@ -13,7 +13,7 @@ import coverImg from '../../assets/images/proto.png'
 
 const MusicPlayer = () => {
     return (
-        <div className="text-white flex items-center">
+        <div className="bottom-player text-white flex items-center">
             <img
                 src={coverImg}
                 alt="Album Cover"
@@ -43,25 +43,17 @@ const MusicPlayer = () => {
             <Slider
                 aria-label="song progress"
                 size="small"
-                value={30} // This value is for example purposes
+                value={30}
                 min={0}
                 max={100}
                 className="mx-4"
             />
 
             <div className="flex items-center">
-                <span className="text-xs mr-4">1:55 / 3:47</span>
+                <span className="text-xs mr-4 w-24">1:55 / 3:47</span>
                 <IconButton aria-label="volume">
-                    <VolumeUpIcon />
+                    <VolumeUpIcon sx={{'color': 'white'}} />
                 </IconButton>
-                <Slider
-                    aria-label="volume"
-                    size="small"
-                    value={30} // This value is for example purposes
-                    min={0}
-                    max={100}
-                    className="w-24 mx-4"
-                />
             </div>
             <div className="ml-auto flex items-center">
                 <IconButton aria-label="shuffle">

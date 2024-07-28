@@ -1,9 +1,16 @@
-import './assets/styles/index.scss'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import "./assets/styles/index.scss";
 
-function App() {
-  return (
-    <></>
-  );
+export default function App() {
+    return (
+        <>
+            <div className="App">
+                <Routes>
+                    <Route path="/" element={<Home title="About Page" /> } />
+                </Routes>
+            </div>
+        </>
+    );
 }
-
-export default App;

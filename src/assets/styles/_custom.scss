@@ -1,3 +1,100 @@
-.bg {
-    background-color: red;
+body {
+    background-color: #0a0a0a;
+    padding: 6px;
+    color: white;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-section, .leftsidebar-section {
+    width: 20%;
+}
+
+.searchbar-section, .homefeature-section {
+    width: 60%;
+}
+
+.personal-section, .rightsidebar-section {
+    width: 20%;
+}
+
+.theme-color {
+    color: #e36438
+}
+
+.border-button {
+    background-color: transparent !important;
+    color: #e36438 !important;
+}
+
+.self-btn {
+    border: none !important;
+    cursor: pointer !important;
+    padding-left: 14px !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    margin: 4px 2px !important;
+    transition-duration: 0.4s !important;
+    border-radius: 25px !important;
+    border: 2px solid #e36438 !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.self-btn:hover {
+    background-color: #e36438 !important;
+    color: black !important;
+}
+
+.filled-button {
+    background-color: #e36438 !important;
+    color: white!important;
+}
+
+
+.btn-icon {
+    color: white !important;
+}
+
+.profile-image {
+    .circle {
+        border: 2px solid #e36438!important;
+        border-radius: 25px!important;
+        padding: 4px;
+    }
+}
+
+.promovideo-section {
+    background-image: url('../images/sample21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.upgradesubscription-section {
+    background-image: url('../images/upgrade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bottom-player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #151515!important;
+    padding: 10px;
+}
+
+.logo-section {
+    padding-left: 16px;
+}
+
+.MuiInputBase-input {
+    color: #dcdcdc!important;
+    padding-left: 12px!important;
 }
